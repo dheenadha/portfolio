@@ -5,8 +5,9 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
 } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import { FaPhone } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -86,6 +87,22 @@ function Home2() {
             </ul>
           </Col>
         </Row>
+        <Col md={12} className="home-about-social"><div
+                
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiGmail />
+                </div> dheenadhayalan.dk@gmaail.com</Col>
+                <Col md={12} className="home-about-social"><div
+                
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaPhone />
+              </div>  9345385744</Col>
       </Container>
     </Container>
   );

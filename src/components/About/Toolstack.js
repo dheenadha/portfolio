@@ -5,6 +5,8 @@ import {
 } from "react-icons/si";
 import {IoLogoWindows} from "react-icons/io";
 import { VscTerminalCmd } from "react-icons/vsc";
+import { SiMacos } from "react-icons/si";
+import { FaChrome } from "react-icons/fa";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -16,6 +18,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <VscTerminalCmd />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiMacos />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <FaChrome />
       </Col>
     </Row>
   );
